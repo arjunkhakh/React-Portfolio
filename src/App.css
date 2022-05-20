@@ -1,0 +1,36 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+#firstImage {
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://miro.medium.com/max/960/1*PaZT9QBa-Dt9K9FE9-CkbA.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 100px;
+    text-align: center;
+    font-variant-caps: small-caps;
+    font-weight: bolder;
+  }
+
+  nav li a {
+      font-size: 250%;
+  }
