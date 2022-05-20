@@ -20,17 +20,35 @@
   }
 
   #centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin-top: 5%;
+    left: 100%;
+    transform: translate(-90%, -30%);
     background-color: transparent;
     font-size: 100px;
     text-align: center;
     font-variant-caps: small-caps;
     font-weight: bolder;
+    width: 100%;
+    margin-left: 0%;
   }
 
   nav li a {
-      font-size: 250%;
+      font-size: 30%;
+      margin-left: 3%;
   }
+
+  nav {
+    margin-left: -6%;
+  }
+
+  nav li {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #homeTab {
+    margin-left: 6%;
+  }
+
+  
