@@ -1,6 +1,7 @@
 * {
     background-color: black;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #firstImage {
@@ -11,6 +12,19 @@
     background-image: url("https://miro.medium.com/max/960/1*PaZT9QBa-Dt9K9FE9-CkbA.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+#githubicon {
+  height: 15%;
+  width: 15%;
+}
+
+#githubicon:hover {
+  opacity: 0.3;
+}
+
+#about-me{
+  font-size: 500%;
 }
 
 .imgContainer {
@@ -38,6 +52,12 @@
     height: 70%;
 }
 
+.card {
+  margin: 5%;
+  padding: 1%;
+  border-radius: 10%;
+}
+
 #resumeText {
     font-size: 30px;
     font-variant-caps: all-petite-caps;
@@ -49,7 +69,7 @@
   }
 
   nav {
-    margin-left: -6%;
+    margin-left: -9.5%;
   }
 
   nav li {
@@ -61,4 +81,4 @@
     margin-left: 6%;
   }
 
-  
+  /*  */
