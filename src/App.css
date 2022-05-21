@@ -82,3 +82,17 @@
   }
 
   /*  */
+
+  #profileimg {
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+  }
+
+  #profileText {
+    margin: 3%;
+    background-color: darkblue;
+    padding: 3%;
+  }
