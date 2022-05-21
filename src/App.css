@@ -33,6 +33,16 @@
     margin-left: 0%;
   }
 
+  img#resumeid {
+    width: 70%;
+    height: 70%;
+}
+
+#resumeText {
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+}
+
   nav li a {
       font-size: 30%;
       margin-left: 3%;
