@@ -6,16 +6,6 @@
     font-family: 'Grandstander', cursive;
 }
 
-#firstImage {
-    background-size: contain;
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("https://miro.medium.com/max/960/1*PaZT9QBa-Dt9K9FE9-CkbA.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
 #githubicon {
   height: 15%;
   width: 15%;
@@ -106,6 +96,11 @@
     border: none;
 }
 
+a.nav-link.active {
+  background-color: #48a9a6;
+  border: #48a9a6;
+}
+
   .nav-item {
     margin-bottom: 5%;
     border: none;
@@ -115,15 +110,18 @@
   #profileimg {
     width: 20%;
     height: 20%;
-    margin-top: 3%;
     margin-left: 5%;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   #profileText {
     margin: 3%;
     background-color: #E4DFDA;
     padding: 3%;
+    display: flex;
+    flex-direction: column;
   }
 
   Form {
@@ -134,3 +132,70 @@
   .footerbg {
     background: #03071E;
   }
+
+@media (max-width: 575.98px) { 
+  .card-title {
+    font-size: 110%;
+    display: flex;
+  flex-direction: column;
+  }
+
+  #profileimg {
+    width: 65%;
+    height: 65%;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+  }
+}
+/* 
+// Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .card-title {
+    font-size: 80%;
+    display: flex;
+flex-direction: column;
+  }
+
+  #profileimg {
+    width: 55%;
+    height: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+  }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .card-title {
+    font-size: 70%;
+    display: flex;
+flex-direction: column;
+  }
+
+  #profileimg {
+    width: 45%;
+    height: 45%;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .card-title {
+    font-size: 100%;
+    display: flex;
+flex-direction: column;
+  }
+
+  #profileimg {
+    width: 35%;
+    height: 35%;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+  }
+ }
