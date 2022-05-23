@@ -55,17 +55,13 @@
   }
 
   #centered {
-    position: relative;
     margin-top: 5%;
-    left: 100%;
-    transform: translate(-90%, -30%);
     background-color: transparent;
     font-size: 100px;
     text-align: center;
     font-variant-caps: small-caps;
     font-weight: bolder;
     width: 100%;
-    margin-left: 0%;
   }
 
   img#resumeid {
@@ -86,22 +82,33 @@
 
   nav li a {
       font-size: 30%;
-      margin-left: 3%;
   }
 
   nav {
-    margin-left: -9.5%;
+    width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 5%;
   }
 
   nav li {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   #homeTab {
-    margin-left: 6%;
+    margin-left: 10%;
   }
 
+  nav.nav.nav-tabs.navbar-black.bg-black {
+    border: none;
+}
+
+  .nav-item {
+    margin-bottom: 5%;
+    border: none;
+  }
   /*  */
 
   #profileimg {
@@ -119,8 +126,7 @@
   }
 
   Form {
-    border: 1px solid lightgray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
   }
   
