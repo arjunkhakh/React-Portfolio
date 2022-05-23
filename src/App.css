@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
 * {
-    background-color: black;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d4b483;
+    color: #C1666B;
+    font-family: 'Grandstander', cursive;
 }
 
 #firstImage {
@@ -48,13 +50,7 @@
   font-size: 500%;
 }
 
-.imgContainer {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-  #centered {
+#centered {
     margin-top: 5%;
     background-color: transparent;
     font-size: 100px;
@@ -82,7 +78,12 @@
 
   nav li a {
       font-size: 30%;
+      color: #48A9A6;
   }
+
+  nav li a:link {
+    color: #48A9A6;
+}
 
   nav {
     width: 100%;
@@ -101,7 +102,7 @@
     margin-left: 10%;
   }
 
-  nav.nav.nav-tabs.navbar-black.bg-black {
+  nav.nav.nav-tabs.navbar-black.bg-370617 {
     border: none;
 }
 
@@ -121,7 +122,7 @@
 
   #profileText {
     margin: 3%;
-    background-color: darkblue;
+    background-color: #E4DFDA;
     padding: 3%;
   }
 
@@ -130,3 +131,6 @@
     padding: 10px;
   }
   
+  .footerbg {
+    background: #03071E;
+  }
