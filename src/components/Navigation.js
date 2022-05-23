@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header'
 
+
 function Navigation({ currentPage, handlePageChange }) {
   return (
   <>
@@ -14,6 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
      <li className="nav-item"> <a className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} onClick={() => handlePageChange('Contact')} href="#contact">Contact Me</a>  </li>
   </nav>
   </div>
+  
   </>
   );
 }

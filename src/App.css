@@ -23,6 +23,27 @@
   opacity: 0.3;
 }
 
+#linkicon {
+  height: 10%;
+  width: 10%;
+  margin-left: 5%;
+}
+
+#linkicon:hover {
+  opacity: 0.3;
+}
+
+#mailicon {
+  height: 15%;
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#mailicon:hover {
+  opacity: 0.3;
+}
+
 #about-me{
   font-size: 500%;
 }
