@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5eaa3ade.css",
-    "main.js": "/React-Portfolio/static/js/main.da43a56f.js",
+    "main.js": "/React-Portfolio/static/js/main.19599afe.js",
     "static/media/Energy Refined.png": "/React-Portfolio/static/media/Energy Refined.17c9332abf035e02e1af.png",
     "static/media/Market-Watch.png": "/React-Portfolio/static/media/Market-Watch.15f68754a87f75dcb0c7.png",
     "static/media/Image from iOS.jpg": "/React-Portfolio/static/media/Image from iOS.335ea03a4cfc600e51ad.jpg",
@@ -17,10 +17,10 @@
     "static/media/eye.png": "/React-Portfolio/static/media/eye.fecaa5968a5ea0627176.png",
     "index.html": "/React-Portfolio/index.html",
     "main.5eaa3ade.css.map": "/React-Portfolio/static/css/main.5eaa3ade.css.map",
-    "main.da43a56f.js.map": "/React-Portfolio/static/js/main.da43a56f.js.map"
+    "main.19599afe.js.map": "/React-Portfolio/static/js/main.19599afe.js.map"
   },
   "entrypoints": [
     "static/css/main.5eaa3ade.css",
-    "static/js/main.da43a56f.js"
+    "static/js/main.19599afe.js"
   ]
 }
