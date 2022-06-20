@@ -114,6 +114,7 @@ a.nav-link.active {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    float: left;
   }
 
   #profileText {
@@ -122,15 +123,22 @@ a.nav-link.active {
     padding: 3%;
     display: flex;
     flex-direction: column;
+    float: right;
+  }
+
+  .react-icons {
+   font-size: 550%;
+   margin: 3%;
   }
 
   Form {
     border-radius: 10px;
     padding: 10px;
   }
-  
-  .footerbg {
-    background: #03071E;
+
+  footer {
+    float: right;
+    display: block;
   }
 
 @media (max-width: 575.98px) { 
@@ -145,7 +153,9 @@ a.nav-link.active {
     height: 65%;
     margin-top: 3%;
     margin-left: 5%;
+    margin-bottom: 2%;
     justify-content: center;
+    float: left;
   }
 }
 /* 
@@ -158,12 +168,20 @@ flex-direction: column;
   }
 
   #profileimg {
-    width: 55%;
-    height: 55%;
+    width: 85%;
+    height: 85%;
     margin-top: 3%;
     margin-left: 5%;
+    margin-bottom: 2%;
+    display: block;
     justify-content: center;
+    float: left;
   }
+
+  .react-icons {
+    font-size: 950%;
+    margin: 5%;
+   }
  }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -175,12 +193,20 @@ flex-direction: column;
   }
 
   #profileimg {
-    width: 45%;
-    height: 45%;
+    width: 75%;
+    height: 75%;
     margin-top: 3%;
     margin-left: 5%;
+    margin-bottom: 2%;
+    display: block;
     justify-content: center;
+    float: left;
   }
+
+  .react-icons {
+    font-size: 750%;
+    margin: 4%;
+   }
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -188,14 +214,22 @@ flex-direction: column;
   .card-title {
     font-size: 100%;
     display: flex;
-flex-direction: column;
+  flex-direction: column;
   }
 
   #profileimg {
-    width: 35%;
-    height: 35%;
+    width: 75%;
+    height: 75%;
     margin-top: 3%;
     margin-left: 5%;
+    margin-bottom: 4%;
+    display: block;
     justify-content: center;
+    float: left;
   }
+
+  .react-icons {
+    font-size: 650%;
+    margin: 13%;
+   }
  }
