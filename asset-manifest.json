@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5eaa3ade.css",
-    "main.js": "/React-Portfolio/static/js/main.7d13b266.js",
+    "main.js": "/React-Portfolio/static/js/main.b6a2ac1f.js",
     "static/media/Energy Refined.png": "/React-Portfolio/static/media/Energy Refined.17c9332abf035e02e1af.png",
     "static/media/Market-Watch.png": "/React-Portfolio/static/media/Market-Watch.15f68754a87f75dcb0c7.png",
     "static/media/Arjun Khakhs CV - 11_05_221.jpg": "/React-Portfolio/static/media/Arjun Khakhs CV - 11_05_221.68a42bff327d4fa6e72f.jpg",
@@ -10,17 +10,17 @@
     "static/media/ReadMe Generator.png": "/React-Portfolio/static/media/ReadMe Generator.f10117dde32c535fc472.png",
     "static/media/E-Commerce.png": "/React-Portfolio/static/media/E-Commerce.1aeda1e7c7c2c6214680.png",
     "static/media/social-network-api.png": "/React-Portfolio/static/media/social-network-api.5ab69cf987f590e24468.png",
-    "static/media/Arjun Khakhs CV - 11_05_22.pdf": "/React-Portfolio/static/media/Arjun Khakhs CV - 11_05_22.a14852f4a2061cb52784.pdf",
+    "static/media/Arjun Khakhs CV - 11_05_22.pdf": "/React-Portfolio/static/media/Arjun Khakhs CV - 11_05_22.f24d462bd6fe0000325d.pdf",
     "static/media/github link.png": "/React-Portfolio/static/media/github link.390e05ebbe5f40543121.png",
     "static/media/linkdin.png": "/React-Portfolio/static/media/linkdin.c0543f8a1f1f86ab63ac.png",
     "static/media/mail.png": "/React-Portfolio/static/media/mail.5a96b03b3d24da24b48b.png",
     "static/media/eye.png": "/React-Portfolio/static/media/eye.fecaa5968a5ea0627176.png",
     "index.html": "/React-Portfolio/index.html",
     "main.5eaa3ade.css.map": "/React-Portfolio/static/css/main.5eaa3ade.css.map",
-    "main.7d13b266.js.map": "/React-Portfolio/static/js/main.7d13b266.js.map"
+    "main.b6a2ac1f.js.map": "/React-Portfolio/static/js/main.b6a2ac1f.js.map"
   },
   "entrypoints": [
     "static/css/main.5eaa3ade.css",
-    "static/js/main.7d13b266.js"
+    "static/js/main.b6a2ac1f.js"
   ]
 }
