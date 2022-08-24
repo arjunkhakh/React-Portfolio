@@ -7,6 +7,7 @@ import energy from "./images/Energy Refined.png"
 import network from "./images/social-network-api.png"
 import github from "./images/github link.png"
 import eye from "./images/eye.png"
+import sani from "./images/sani-meal-app.png"
 
 export default function Home() {
   return (
@@ -14,19 +15,17 @@ export default function Home() {
       <br></br>
       <center><h2 style={{color: "#E4DFDA", marginBottom: "-3%"}}>Featured Project</h2></center>
       <div class="card">
-    <img class="card-img-top" src={market} alt="Market Watch"></img>
+    <img class="card-img-top" src={sani} alt="Sani mea App"></img>
     <div class="card-body">
-      <h5 class="card-title">Market Watch</h5>
-      <p class="card-text">An application designed for the user to look at Companies Current Price In Stock and related Company News! Users are able to search 
-    up their company they like and a card with the information will come up. It is designed for users who are in the field of the Stock
-    Market and would like some quick information or users who are new about this and want to start somewhere new with basic information
-    about company stocks.</p>
-      <p class="card-text"><small class="text-muted">Created 01/02/2022</small></p>
-      <a href='https://github.com/arjunkhakh/Market-Watch'><img id="githubicon" class="card-img-top" src={github} alt="Market Watch Github"></img></a>
-      <a href='https://github.com/arjunkhakh/Market-Watch'><img id="githubicon" class="card-img-top" src={eye} alt="Market Watch Visual"></img></a>
+    <h5 class="card-title" style={{textAlign: "center"}}>Sani Meal App</h5>
+      <p class="card-text" style={{textAlign: "center"}}>On this Application, myself and my team have built a Food Planner App. The User can Sign Up and Login to where they can search for meals
+      with a search bar and can be saved in their userpage.</p>
+      <p class="card-text" style={{textAlign: "center"}}><small class="text-muted">Created 07/06/2022</small></p>
+      <a href='https://github.com/hassanmahdi58/Sani-Meal-App'><img id="githubicon" class="card-img-top" src={github} alt="Sani Meal App Github"></img></a>
+      <a href='https://sanimealapp.herokuapp.com/'><img id="githubicon" class="card-img-top" src={eye} alt="Sani Meal App Visual"></img></a>
     </div>
   </div>
-  <center><h2 style={{color: "#E4DFDA"}}>More Projects</h2></center>
+  <center><h2 style={{color: "#E4DFDA", marginBottom: "-3%"}}>More Projects</h2></center>
       <div class="card-group">
   <div class="card">
     <img class="card-img-top" src={market} alt="Market Watch"></img>
