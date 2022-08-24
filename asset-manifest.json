@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.547276e0.css",
-    "main.js": "/React-Portfolio/static/js/main.50016609.js",
+    "main.js": "/React-Portfolio/static/js/main.ee73866e.js",
     "static/media/Energy Refined.png": "/React-Portfolio/static/media/Energy Refined.17c9332abf035e02e1af.png",
     "static/media/sani-meal-app.png": "/React-Portfolio/static/media/sani-meal-app.4283bdf22909f949a332.png",
     "static/media/Market-Watch.png": "/React-Portfolio/static/media/Market-Watch.15f68754a87f75dcb0c7.png",
-    "static/media/Arjun Khakhs CV - 11_05_221.jpg": "/React-Portfolio/static/media/Arjun Khakhs CV - 11_05_221.68a42bff327d4fa6e72f.jpg",
+    "static/media/Arjun Khakhs CV Without Address.jpg": "/React-Portfolio/static/media/Arjun Khakhs CV Without Address.96969ad61b58200e146c.jpg",
     "static/media/Image from iOS.jpg": "/React-Portfolio/static/media/Image from iOS.335ea03a4cfc600e51ad.jpg",
     "static/media/Weather Dashboard.png": "/React-Portfolio/static/media/Weather Dashboard.93f70e71ae211f51d9b4.png",
     "static/media/ReadMe Generator.png": "/React-Portfolio/static/media/ReadMe Generator.f10117dde32c535fc472.png",
     "static/media/E-Commerce.png": "/React-Portfolio/static/media/E-Commerce.1aeda1e7c7c2c6214680.png",
     "static/media/social-network-api.png": "/React-Portfolio/static/media/social-network-api.5ab69cf987f590e24468.png",
-    "static/media/Arjun Khakhs CV - 11_05_22.pdf": "/React-Portfolio/static/media/Arjun Khakhs CV - 11_05_22.f24d462bd6fe0000325d.pdf",
+    "static/media/Arjun Khakhs CV Without Address.pdf": "/React-Portfolio/static/media/Arjun Khakhs CV Without Address.c472f6f3f470d21caf82.pdf",
     "static/media/github link.png": "/React-Portfolio/static/media/github link.390e05ebbe5f40543121.png",
     "static/media/linkdin.png": "/React-Portfolio/static/media/linkdin.c0543f8a1f1f86ab63ac.png",
     "static/media/mail.png": "/React-Portfolio/static/media/mail.5a96b03b3d24da24b48b.png",
     "static/media/eye.png": "/React-Portfolio/static/media/eye.fecaa5968a5ea0627176.png",
     "index.html": "/React-Portfolio/index.html",
     "main.547276e0.css.map": "/React-Portfolio/static/css/main.547276e0.css.map",
-    "main.50016609.js.map": "/React-Portfolio/static/js/main.50016609.js.map"
+    "main.ee73866e.js.map": "/React-Portfolio/static/js/main.ee73866e.js.map"
   },
   "entrypoints": [
     "static/css/main.547276e0.css",
-    "static/js/main.50016609.js"
+    "static/js/main.ee73866e.js"
   ]
 }
