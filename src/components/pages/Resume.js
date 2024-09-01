@@ -1,6 +1,6 @@
 import React from 'react';
-import ResumePDF from './images/Arjun Khakhs CV Without Address.pdf'
-import ResumeJPG from './images/Arjun Khakhs CV Without Address.jpg'
+import ResumePDF from './images/Arjun Khakhs CV - 25-08-24.pdf'
+// import ResumeJPG from './images/Arjun Khakhs CV Without Address.jpg'
 
 export default function Resume() {
   return (
@@ -9,7 +9,7 @@ export default function Resume() {
 <h2>Resume!</h2>
     <a href={ResumePDF} download="resumeArj" id="resumeText">Download the PDF</a>
     <div class="resume">
-<img src={ResumeJPG} alt="resume" id="resumeid"></img>
+{/* <img src={ResumeJPG} alt="resume" id="resumeid"></img> */}
 </div>
 </center>
     </div>
