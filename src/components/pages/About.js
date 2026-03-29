@@ -1,6 +1,10 @@
 import React from 'react';
 import me from "./images/Image from iOS.jpg"
-import { FaCss3, FaGithub, FaHtml5, FaJs, FaNodeJs, FaNpm, FaReact } from 'react-icons/fa';
+import { FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import { TbCSharp  } from 'react-icons/tb';
+import { DiNetmagazine, DiVisualstudio, DiPhp   } from "react-icons/di";
+import { AiOutlineConsoleSql } from "react-icons/ai";
+
 
 export default function About() {
   return (
@@ -11,18 +15,19 @@ export default function About() {
 
          <img id="profileimg" src={me} alt='Me'></img></center>
          <h2 style={{textAlign:"center"}}>Programming Languages And Tools</h2>
-         <FaGithub className='react-icons'/> Github
+         <center>
+         <TbCSharp className='react-icons'/> C#
          <FaReact className='react-icons' /> React.js
          <FaJs className='react-icons' /> JavaScript
-         <FaHtml5 className='react-icons' /> HTML5
-         <FaCss3 className='react-icons' /> CSS3
+         <DiNetmagazine className='react-icons' /> ASP.NET
+         <DiPhp className='react-icons' /> PHP
          <FaNodeJs className='react-icons' /> Node.js
-         <FaNpm className='react-icons' /> NPM
+         <AiOutlineConsoleSql className='react-icons' /> SQL
+         <DiVisualstudio className='react-icons' /> Visual Studio
+         </center>
          <p id='profileText'>
-        Welcome to my Professional Portfolio! My Name is Arjun! I am a programming bootcamper at the University of Birmingham! Located in the West 
-        Midlands, I find the university such a promising place for coders and learners like myself to advance into our career and be able to 
-        grasp the knowledge on being a full-stack developer within the web or software industries.I had chosen to be on this course because I have a passion for technology and wanting to build and create with coding. 
-        Some of the things I want to build are software programming, creating games using C++/JavaScript or websites that involve a full-stack level of programming. 
+        Welcome to my Professional Portfolio! I’m Arjun, a Graduate Software Developer at Syscom PLC, where I’ve been building and supporting enterprise-level solutions since August 2025. I specialise in developing and maintaining business-critical applications, working across technologies such as C#, .NET, SQL, and modern web frameworks.
+        With a BSc in Computer Science from Birmingham City University, I developed a solid foundation in areas like software development, cloud computing, databases, and front-end development. Since graduating, I’ve continued to grow my skills in engineering real-world complex problems, developing new features for business applications, and delivering reliable solutions for users.
          </p>
          
       </div>

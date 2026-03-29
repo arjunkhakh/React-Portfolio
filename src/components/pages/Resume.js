@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePDF from './images/Arjun Khakhs CV - 25-08-24.pdf'
+import ResumePDF from './images/Arjun Khakhs CV - 02-03-2026.pdf'
 // import ResumeJPG from './images/Arjun Khakhs CV Without Address.jpg'
 
 export default function Resume() {
